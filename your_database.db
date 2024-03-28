@@ -1,0 +1,11 @@
+CREATE TABLE Attractions (
+    attraction_id INTEGER PRIMARY KEY,
+    attraction_name TEXT,
+    time_spent INTEGER,
+    predicted_cost REAL,
+    blog_link TEXT,
+    google_maps_location TEXT,
+    tagged_place TEXT,
+    rank INTEGER,
+    image_url TEXT
+);
